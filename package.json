@@ -1,5 +1,5 @@
 {
-  "name": "vuechatbot",
+  "name": "@samir-elasri/vuechatbot",
   "version": "1.0.0",
   "main": "dist/vuechatbot.umd.js",
   "module": "dist/vuechatbot.es.js",
