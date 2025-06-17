@@ -1,6 +1,6 @@
 {
   "name": "@samir-elasri/vuechatbot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/vuechatbot.umd.js",
   "module": "dist/vuechatbot.es.js",
   "types": "dist/index.d.ts",
