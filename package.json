@@ -1,6 +1,6 @@
 {
   "name": "@samir-elasri/vuechatbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/vuechatbot.umd.js",
   "module": "dist/vuechatbot.es.js",
   "types": "dist/index.d.ts",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.10",
+    "marked": "^15.0.12",
     "pinia": "^2.3.1"
   },
   "devDependencies": {
