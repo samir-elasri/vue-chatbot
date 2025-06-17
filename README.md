@@ -1,33 +1,84 @@
-# vue-chatbot
+# 📦 vuechatbot
 
-This template should help get you started developing with Vue 3 in Vite.
+A beautiful, lightweight Vue 3 chatbot component powered by **Google Gemini 2.0 Flash**. Easily drop it into any Vue 3 + Vite project.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Features
 
-## Type Support for `.vue` Imports in TS
+- ✨ Clean modern UI using Tailwind CSS 4
+- 💬 Renders Markdown using `marked`
+- 🔒 Uses your own Google Gemini 2.0 Flash API key
+- ⚡ Fast, reactive, and styled with glassmorphism effects
+- 🧠 State managed with Pinia
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## 📦 Installation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+npm install @samir-elasri/vuechatbot
 ```
 
-### Compile and Hot-Reload for Development
+### ✍️ Peer Dependencies
 
-```sh
+Make sure your project also includes:
+
+```bash
+npm install vue@^3.3.0 pinia
+```
+
+Tailwind CSS is required in your consuming project. Follow the [Tailwind CSS installation guide](https://tailwindcss.com/docs/installation) if you haven’t already.
+
+---
+
+## 🧪 Usage
+
+```vue
+<script setup>
+import VueChatbot from '@samir-elasri/vuechatbot'
+</script>
+
+<template>
+  <VueChatbot />
+</template>
+```
+
+---
+
+## 🔐 Environment Variables
+
+You must provide your **Google Gemini 2.0 Flash API key** via an environment variable:
+
+Create a `.env` file in the root of your Vue app:
+
+```env
+VITE_GEMINI_API_KEY=your_google_gemini_flash_api_key_here
+```
+
+The chatbot uses this key to query the Gemini 2.0 Flash model.
+
+---
+
+## 🛠️ Development
+
+To contribute or run locally:
+
+```bash
+git clone https://github.com/samir-elasri/vuechatbot.git
+cd vuechatbot
+npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Build for production:
 
-```sh
+```bash
 npm run build
 ```
+
+---
+
+## 📄 License
+
+MIT © [Samir Elasri](https://github.com/samir-elasri)
