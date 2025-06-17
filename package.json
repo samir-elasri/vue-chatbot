@@ -45,5 +45,6 @@
   "homepage": "https://github.com/samir-elasri/vue-chatbot#readme",
   "bugs": {
     "url": "https://github.com/samir-elasri/vue-chatbot/issues"
-  }
+  },
+  "license": "MIT"
 }
